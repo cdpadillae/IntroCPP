@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cmath>
+
+int main(){
+    const long long int M = 600851475143;
+    long int primo = 0;
+    for (long long int ii = (M+1)/2; ii >=1; --ii ){
+        if (M%ii == 0){
+          primo = ii;
+          break;
+        }
+    }
+    std::cout << primo << "\n";
+    return 0;
+}

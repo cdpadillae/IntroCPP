@@ -1,0 +1,20 @@
+#include <iostream>
+#include <cmath>
+
+/*
+  Tenemos un numero long long 
+  Calcular los divisores primos: Calcular divisor y saber si es primo
+ */
+
+int main(void){
+
+    const long long N = 600851475143;
+    for(long long int ii = 1; ii<= N/2; i++){
+        if (N%ii == 0){
+            //Aqui falta verificar si es primo
+            std::cout << ii << "\n";
+        }
+    }
+
+    return 0;
+}

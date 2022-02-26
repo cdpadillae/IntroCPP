@@ -1,0 +1,9 @@
+#include <iostream>
+
+int main(){
+
+  std::cout << sizeof(int);
+  std::cout << sizeof(float);
+  std::cout << sizeof(double);
+  return 0;
+}
