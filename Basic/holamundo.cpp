@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main (){
-  std::cout << "Hola Ucrania-Rusia\n";
+  std::cout << "Hola Cindy!\n";
   int a;
   float x;
   double y= 0.0;
